@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Practice building a full-stack CRUD app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thismax/todo.git"
+  },
+  "author": "max",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thismax/todo/issues"
+  },
+  "homepage": "https://github.com/thismax/todo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7"
+  }
+}
